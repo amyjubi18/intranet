@@ -22,7 +22,7 @@ $campo = isset($_POST['campo']) ? $con->real_escape_string($_POST['campo']) : nu
 $where = '';
 
 if ($campo != null) {
-    $where = "WHERE  ( ";
+    $where = "INNER JOIN WHERE  ( ";
 
 
     $cont = count($columns);
