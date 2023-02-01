@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -24,7 +23,7 @@
    
     <ul class="menu__links">
       <li class="menu__item">
-        <a href="/procesos/inicio.php" class="menu__link">Inicio</a>
+        <a href="#" class="menu__link">Inicio</a>
       </li>
       
       <li class="menu__item menu__item--show">
@@ -52,7 +51,9 @@
           
           
         </li>
-        
+        <li class="menu__item ">
+        <a href="includes/login.php" class="menu__link">Iniciar Sesión</a>
+      </li>
       <li class="menu__item ">
         <a href="#" class="menu__link">Soporte Técnico</a>
       </li>

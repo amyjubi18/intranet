@@ -20,7 +20,8 @@
       <h1 class="menu__logo">
         <img src="img/Logo.png" class="w-10"> 
       </h1>
-      <?php if(!isset($_SESSION["user_id"])):?>
+      <?php
+      if(!isset($_SESSION["user_id"])):?>
         <ul class="menu__links">
         <li class="menu__item">
           <a href="./registro.php" class="menu__link">Registro</a>
